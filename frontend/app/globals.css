@@ -1,9 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  color-scheme: light;
+@theme {
+  --color-accent: #6D5DFC;
+  --color-success: #16A34A;
+  --color-danger: #DC2626;
+  --color-warning: #D97706;
+  --color-background: #F1F5F9;
+  --color-muted: #64748B;
+  --shadow-glow: 0 8px 32px rgba(109, 93, 252, 0.18);
+  --shadow-soft: 0 2px 8px rgba(15, 23, 42, 0.08);
+  --shadow-card: 0 1px 3px rgba(15, 23, 42, 0.07), 0 1px 2px rgba(15, 23, 42, 0.04);
 }
 
 * {
