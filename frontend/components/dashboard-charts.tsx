@@ -3,15 +3,15 @@
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis, ScatterChart, Scatter } from 'recharts'
 import { suppliers } from '@/lib/demo-data'
 
-const tooltip = { background: '#0B1628', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 16, color: '#FFFFFF' }
+const tooltip = { background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 12, color: '#0F172A', boxShadow: '0 4px 16px rgba(15,23,42,0.08)' }
 const axis = { fill: '#94A3B8', fontSize: 11 }
 
 function ChartShell({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <div className="surface-muted h-80 rounded-3xl p-5">
+    <div className="surface h-80 rounded-3xl p-5">
       <div className="mb-4 flex items-center justify-between">
-        <h3 className="text-xl font-semibold tracking-[-0.02em]">{title}</h3>
-        <span className="rounded-full bg-white/[0.045] px-2 py-1 text-[10px] uppercase tracking-[0.16em] text-slate-500">Live</span>
+        <h3 className="text-lg font-bold tracking-tight text-slate-900">{title}</h3>
+        <span className="rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-slate-500">Live</span>
       </div>
       {children}
     </div>
