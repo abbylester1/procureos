@@ -1,0 +1,69 @@
+version: 2
+
+models:
+  - name: int_material_mapping
+    description: Deterministic material normalization map used by the AI material agent.
+    columns:
+      - name: material_name
+        description: Original material name from RFQ or quote data.
+        tests:
+          - not_null
+      - name: normalized_material
+        description: Canonical material code used for matching.
+        tests:
+          - not_null
+      - name: confidence
+        description: Normalization confidence score.
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 1
+
+  - name: int_price_normalization
+    description: Quote lines normalized into USD extended prices and canonical material groups.
+    columns:
+      - name: quote_id
+        description: Unique quote line identifier.
+        tests:
+          - not_null
+          - unique
+      - name: extended_price_usd
+        description: Quote line extended price in USD.
+        tests:
+          - not_null
+
+  - name: int_supplier_matching
+    description: Supplier RFQ coverage and missing material calculation.
+    columns:
+      - name: rfq_id
+        description: RFQ identifier.
+        tests:
+          - not_null
+      - name: supplier_id
+        description: Supplier identifier.
+        tests:
+          - not_null
+      - name: coverage_pct
+        description: Percent of required normalized materials covered by supplier quote.
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 100
+
+  - name: int_vendor_scoring
+    description: Risk-adjusted supplier score components.
+    columns:
+      - name: rfq_id
+        description: RFQ identifier.
+        tests:
+          - not_null
+      - name: supplier_id
+        description: Supplier identifier.
+        tests:
+          - not_null
+      - name: risk_score
+        description: Supplier risk score where higher is better.
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 100

@@ -1,0 +1,12 @@
+node_modules
+.next
+__pycache__
+.venv
+.env
+.DS_Store
+target
+dbt_packages
+logs
+*.pyc
+*.tsbuildinfo
+postgres_data

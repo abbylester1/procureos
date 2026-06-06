@@ -1,0 +1,12 @@
+{
+  "quality_score": 96,
+  "generated_from": "dbt/procureos",
+  "checks": [
+    { "test": "not_null_rfq_id", "model": "stg_rfqs", "status": "pass", "failures": 0 },
+    { "test": "not_null_supplier_name", "model": "stg_suppliers", "status": "pass", "failures": 0 },
+    { "test": "positive_prices_only", "model": "stg_quotes", "status": "pass", "failures": 0 },
+    { "test": "unique_quote_id", "model": "stg_quotes", "status": "pass", "failures": 0 },
+    { "test": "valid_currency_values", "model": "stg_quotes", "status": "pass", "failures": 0 },
+    { "test": "coverage_threshold", "model": "fct_vendor_scores", "status": "warn", "failures": 1 }
+  ]
+}

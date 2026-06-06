@@ -1,0 +1,13 @@
+quote_id,rfq_id,supplier_id,supplier_name,region,reliability_score,material_name,category,quantity,unit,unit_price,currency,lead_time_days
+Q-RFQ-1001-apex-1,RFQ-1001,apex,Apex Industrial Supply,South,90,Primer,Paint,150,ton,38.02,USD,6
+Q-RFQ-1001-apex-2,RFQ-1001,apex,Apex Industrial Supply,South,90,Interior Paint,Paint,371,sq_ft,35.41,USD,5
+Q-RFQ-1001-apex-3,RFQ-1001,apex,Apex Industrial Supply,South,90,LED Fixture,Electrical,41,yd3,61.66,USD,16
+Q-RFQ-1001-apex-4,RFQ-1001,apex,Apex Industrial Supply,South,90,I Beam Steel,Steel,283,sq_ft,985.43,USD,4
+Q-RFQ-1001-apex-5,RFQ-1001,apex,Apex Industrial Supply,South,90,Junction Box,Electrical,391,sq_ft,62.65,USD,18
+Q-RFQ-1001-apex-6,RFQ-1001,apex,Apex Industrial Supply,South,90,Steel Rebar,Steel,326,ea,1013.55,USD,38
+Q-RFQ-1001-apex-7,RFQ-1001,apex,Apex Industrial Supply,South,90,Sheetrock,Drywall,413,ton,21.21,USD,31
+Q-RFQ-1001-apex-8,RFQ-1001,apex,Apex Industrial Supply,South,90,PVC Plumbing Pipe,Plumbing,167,ton,85.38,USD,11
+Q-RFQ-1001-apex-9,RFQ-1001,apex,Apex Industrial Supply,South,90,Drywall Screws,Drywall,77,yd3,15.6,USD,17
+Q-RFQ-1001-apex-10,RFQ-1001,apex,Apex Industrial Supply,South,90,Ready Mix Concrete,Concrete,458,ea,125.03,USD,24
+Q-FILL-2399,RFQ-1001,apex,Apex Industrial Supply,South,90,Steel Rebar,Steel,283,sq_ft,467.28,USD,7
+Q-FILL-2404,RFQ-1001,apex,Apex Industrial Supply,South,90,Sheetrock,Drywall,77,yd3,587.93,USD,19

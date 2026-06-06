@@ -1,0 +1,14 @@
+{
+  "results": [
+    { "model": "stg_rfqs", "status": "success", "execution_time": 0.18 },
+    { "model": "stg_suppliers", "status": "success", "execution_time": 0.14 },
+    { "model": "stg_quotes", "status": "success", "execution_time": 0.31 },
+    { "model": "stg_materials", "status": "success", "execution_time": 0.28 },
+    { "model": "int_material_mapping", "status": "success", "execution_time": 0.22 },
+    { "model": "int_price_normalization", "status": "success", "execution_time": 0.35 },
+    { "model": "int_supplier_matching", "status": "success", "execution_time": 0.44 },
+    { "model": "int_vendor_scoring", "status": "success", "execution_time": 0.39 },
+    { "model": "fct_vendor_scores", "status": "success", "execution_time": 0.41 },
+    { "model": "procurement_recommendations", "status": "success", "execution_time": 0.25 }
+  ]
+}

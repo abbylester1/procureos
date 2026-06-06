@@ -1,0 +1,6 @@
+supplier_id,supplier_name,region,reliability_score
+buildtech,BuildTech Supply,Midwest,94
+constructpro,ConstructPro Materials,Northeast,88
+urban,UrbanBuild Wholesale,West,82
+apex,Apex Industrial Supply,South,90
+metro,Metro Contractor Depot,National,86

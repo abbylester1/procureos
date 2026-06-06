@@ -1,0 +1,24 @@
+name: procureos
+version: '1.0.0'
+config-version: 2
+
+profile: procureos
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  procureos:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
+
+seeds:
+  procureos:
+    +quote_columns: false

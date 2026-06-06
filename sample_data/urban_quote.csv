@@ -1,0 +1,13 @@
+quote_id,rfq_id,supplier_id,supplier_name,region,reliability_score,material_name,category,quantity,unit,unit_price,currency,lead_time_days
+Q-RFQ-1001-urban-1,RFQ-1001,urban,UrbanBuild Wholesale,West,82,Paint Supplies,Paint,150,ton,31.72,USD,14
+Q-RFQ-1001-urban-2,RFQ-1001,urban,UrbanBuild Wholesale,West,82,Interior Paint,Paint,371,sq_ft,33.5,USD,14
+Q-RFQ-1001-urban-3,RFQ-1001,urban,UrbanBuild Wholesale,West,82,LED Fixture,Electrical,41,yd3,56.33,USD,16
+Q-RFQ-1001-urban-4,RFQ-1001,urban,UrbanBuild Wholesale,West,82,Structural Steel Beam,Steel,283,sq_ft,930.9,USD,6
+Q-RFQ-1001-urban-5,RFQ-1001,urban,UrbanBuild Wholesale,West,82,Breaker Panel,Electrical,391,sq_ft,52.52,USD,23
+Q-RFQ-1001-urban-6,RFQ-1001,urban,UrbanBuild Wholesale,West,82,Structural Steel Beam,Steel,326,ea,893.63,USD,40
+Q-RFQ-1001-urban-7,RFQ-1001,urban,UrbanBuild Wholesale,West,82,Drywall Screws,Drywall,413,ton,19.31,USD,33
+Q-RFQ-1001-urban-8,RFQ-1001,urban,UrbanBuild Wholesale,West,82,PVC Plumbing Pipe,Plumbing,167,ton,79.11,USD,16
+Q-RFQ-1001-urban-9,RFQ-1001,urban,UrbanBuild Wholesale,West,82,Drywall Sheet,Drywall,77,yd3,19.75,USD,23
+Q-RFQ-1001-urban-10,RFQ-1001,urban,UrbanBuild Wholesale,West,82,Concrete,Concrete,458,ea,119.32,USD,35
+Q-FILL-2398,RFQ-1001,urban,UrbanBuild Wholesale,West,82,Junction Box,Electrical,41,yd3,295.43,USD,9
+Q-FILL-2403,RFQ-1001,urban,UrbanBuild Wholesale,West,82,Ball Valve,Plumbing,167,ton,258.35,USD,13

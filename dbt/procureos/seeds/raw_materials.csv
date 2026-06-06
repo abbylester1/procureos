@@ -1,0 +1,501 @@
+material_id,material_name,category,unit
+1,Exterior Coating,Paint,ton
+2,Interior Paint,Paint,sq_ft
+3,Junction Box,Electrical,yd3
+4,Steel Rebar,Steel,sq_ft
+5,Conduit,Electrical,sq_ft
+6,Steel Plate,Steel,ea
+7,Drywall Sheet,Drywall,ton
+8,Ball Valve,Plumbing,ton
+9,Sheetrock,Drywall,yd3
+10,Concrete,Concrete,ea
+11,Cement Blend,Concrete,yd3
+12,Gypsum Board,Drywall,linear_ft
+13,PVC Plumbing Pipe,Plumbing,linear_ft
+14,Concrete Mix,Concrete,yd3
+15,Air Diffuser,HVAC,linear_ft
+16,Latex Paint,Paint,linear_ft
+17,Rebar Grade 60,Steel,yd3
+18,Latex Paint,Paint,ea
+19,Cement Blend,Concrete,sq_ft
+20,Conduit,Electrical,sq_ft
+21,Pipe Fittings,Plumbing,yd3
+22,Ductwork,HVAC,sq_ft
+23,Exterior Coating,Paint,linear_ft
+24,Primer,Paint,linear_ft
+25,Gypsum Board,Drywall,yd3
+26,LED Fixture,Electrical,yd3
+27,Gypsum Board,Drywall,ea
+28,Gypsum Board,Drywall,yd3
+29,Steel Plate,Steel,yd3
+30,Pipe Fittings,Plumbing,linear_ft
+31,Joint Compound,Drywall,sq_ft
+32,Ball Valve,Plumbing,linear_ft
+33,Ductwork,HVAC,ton
+34,Sheetrock,Drywall,ea
+35,Breaker Panel,Electrical,yd3
+36,Structural Steel Beam,Steel,linear_ft
+37,Conduit,Electrical,linear_ft
+38,Paint Supplies,Paint,yd3
+39,Ductwork,HVAC,ton
+40,Latex Paint,Paint,linear_ft
+41,Concrete Mix,Concrete,ea
+42,Exterior Coating,Paint,linear_ft
+43,Steel Plate,Steel,ton
+44,I Beam Steel,Steel,ton
+45,Concrete,Concrete,linear_ft
+46,Drywall Screws,Drywall,yd3
+47,Exterior Coating,Paint,sq_ft
+48,Paint Supplies,Paint,ton
+49,Junction Box,Electrical,ea
+50,Drywall Screws,Drywall,linear_ft
+51,Air Diffuser,HVAC,yd3
+52,Conduit,Electrical,linear_ft
+53,Latex Paint,Paint,sq_ft
+54,Primer,Paint,linear_ft
+55,Portland Cement,Concrete,linear_ft
+56,Concrete,Concrete,linear_ft
+57,Rebar Grade 60,Steel,ea
+58,Exterior Coating,Paint,linear_ft
+59,Structural Steel Beam,Steel,linear_ft
+60,Primer,Paint,sq_ft
+61,Exterior Coating,Paint,linear_ft
+62,Interior Paint,Paint,yd3
+63,Concrete,Concrete,linear_ft
+64,Plumbing Fixture,Plumbing,yd3
+65,Concrete,Concrete,sq_ft
+66,Sheetrock,Drywall,linear_ft
+67,Concrete Mix,Concrete,sq_ft
+68,Electrical Wire,Electrical,ea
+69,Ductwork,HVAC,ton
+70,Electrical Wire,Electrical,sq_ft
+71,Concrete,Concrete,linear_ft
+72,Gypsum Board,Drywall,linear_ft
+73,Electrical Wire,Electrical,yd3
+74,Ductwork,HVAC,ton
+75,Latex Paint,Paint,linear_ft
+76,Sheetrock,Drywall,ea
+77,Concrete Mix,Concrete,sq_ft
+78,Ready Mix Concrete,Concrete,linear_ft
+79,Electrical Wire,Electrical,sq_ft
+80,Steel Rebar,Steel,linear_ft
+81,Gypsum Board,Drywall,sq_ft
+82,Ready Mix Concrete,Concrete,ton
+83,Steel Rebar,Steel,ton
+84,Breaker Panel,Electrical,yd3
+85,I Beam Steel,Steel,ton
+86,VAV Box,HVAC,yd3
+87,Primer,Paint,sq_ft
+88,I Beam Steel,Steel,sq_ft
+89,Drywall Screws,Drywall,yd3
+90,Cement Blend,Concrete,ton
+91,Ductwork,HVAC,yd3
+92,Interior Paint,Paint,linear_ft
+93,Air Diffuser,HVAC,ton
+94,Breaker Panel,Electrical,ea
+95,Cement Blend,Concrete,sq_ft
+96,Structural Steel Beam,Steel,sq_ft
+97,Primer,Paint,yd3
+98,Air Diffuser,HVAC,ton
+99,Conduit,Electrical,linear_ft
+100,Primer,Paint,ea
+101,Cement Blend,Concrete,linear_ft
+102,Interior Paint,Paint,yd3
+103,PVC Plumbing Pipe,Plumbing,ton
+104,Drywall Sheet,Drywall,sq_ft
+105,I Beam Steel,Steel,sq_ft
+106,Sheetrock,Drywall,ea
+107,I Beam Steel,Steel,linear_ft
+108,HVAC Air Handler,HVAC,sq_ft
+109,Primer,Paint,linear_ft
+110,Copper Pipe,Plumbing,linear_ft
+111,I Beam Steel,Steel,sq_ft
+112,Joint Compound,Drywall,sq_ft
+113,PVC Plumbing Pipe,Plumbing,yd3
+114,Exterior Coating,Paint,yd3
+115,Structural Steel Beam,Steel,sq_ft
+116,LED Fixture,Electrical,ea
+117,Exterior Coating,Paint,linear_ft
+118,Rebar Grade 60,Steel,linear_ft
+119,I Beam Steel,Steel,linear_ft
+120,Drywall Screws,Drywall,ton
+121,HVAC Air Handler,HVAC,yd3
+122,Drywall Screws,Drywall,ea
+123,Steel Plate,Steel,ea
+124,Joint Compound,Drywall,ea
+125,Pipe Fittings,Plumbing,sq_ft
+126,HVAC Compressor,HVAC,linear_ft
+127,Rebar Grade 60,Steel,sq_ft
+128,Concrete Mix,Concrete,yd3
+129,HVAC Air Handler,HVAC,ea
+130,I Beam Steel,Steel,linear_ft
+131,Ductwork,HVAC,ton
+132,Primer,Paint,sq_ft
+133,Cement Blend,Concrete,ton
+134,Ductwork,HVAC,ton
+135,Junction Box,Electrical,ton
+136,Concrete Mix,Concrete,yd3
+137,Paint Supplies,Paint,linear_ft
+138,Gypsum Board,Drywall,ea
+139,Concrete Mix,Concrete,sq_ft
+140,Latex Paint,Paint,yd3
+141,PVC Plumbing Pipe,Plumbing,ea
+142,Sheetrock,Drywall,linear_ft
+143,Sheetrock,Drywall,linear_ft
+144,Structural Steel Beam,Steel,ton
+145,Drywall Screws,Drywall,ton
+146,Steel Plate,Steel,ea
+147,Cement Blend,Concrete,ton
+148,Air Diffuser,HVAC,yd3
+149,Rebar Grade 60,Steel,sq_ft
+150,Rebar Grade 60,Steel,yd3
+151,Drywall Screws,Drywall,ton
+152,VAV Box,HVAC,sq_ft
+153,PVC Plumbing Pipe,Plumbing,yd3
+154,HVAC Compressor,HVAC,yd3
+155,Exterior Coating,Paint,yd3
+156,Steel Rebar,Steel,yd3
+157,HVAC Air Handler,HVAC,yd3
+158,Plumbing Fixture,Plumbing,linear_ft
+159,Plumbing Fixture,Plumbing,linear_ft
+160,Junction Box,Electrical,linear_ft
+161,Junction Box,Electrical,sq_ft
+162,Electrical Wire,Electrical,ton
+163,Gypsum Board,Drywall,yd3
+164,Portland Cement,Concrete,ea
+165,Rebar Grade 60,Steel,linear_ft
+166,Copper Pipe,Plumbing,yd3
+167,Air Diffuser,HVAC,linear_ft
+168,Joint Compound,Drywall,sq_ft
+169,Ductwork,HVAC,ea
+170,Drywall Sheet,Drywall,yd3
+171,Interior Paint,Paint,ea
+172,LED Fixture,Electrical,sq_ft
+173,Interior Paint,Paint,yd3
+174,Interior Paint,Paint,linear_ft
+175,Cement Blend,Concrete,linear_ft
+176,Steel Rebar,Steel,yd3
+177,Copper Pipe,Plumbing,sq_ft
+178,LED Fixture,Electrical,ton
+179,Drywall Sheet,Drywall,sq_ft
+180,HVAC Air Handler,HVAC,yd3
+181,Joint Compound,Drywall,sq_ft
+182,Joint Compound,Drywall,sq_ft
+183,Steel Plate,Steel,sq_ft
+184,Cement Blend,Concrete,sq_ft
+185,Conduit,Electrical,sq_ft
+186,Primer,Paint,linear_ft
+187,LED Fixture,Electrical,ea
+188,Plumbing Fixture,Plumbing,ton
+189,Ball Valve,Plumbing,linear_ft
+190,Steel Rebar,Steel,sq_ft
+191,Interior Paint,Paint,yd3
+192,Latex Paint,Paint,sq_ft
+193,Interior Paint,Paint,sq_ft
+194,HVAC Compressor,HVAC,yd3
+195,Joint Compound,Drywall,linear_ft
+196,Interior Paint,Paint,ton
+197,Steel Rebar,Steel,linear_ft
+198,Drywall Screws,Drywall,ton
+199,Exterior Coating,Paint,sq_ft
+200,Conduit,Electrical,yd3
+201,Electrical Wire,Electrical,ea
+202,Steel Plate,Steel,linear_ft
+203,PVC Plumbing Pipe,Plumbing,linear_ft
+204,I Beam Steel,Steel,ton
+205,Latex Paint,Paint,ton
+206,Exterior Coating,Paint,linear_ft
+207,Electrical Wire,Electrical,linear_ft
+208,Structural Steel Beam,Steel,ton
+209,Drywall Screws,Drywall,linear_ft
+210,I Beam Steel,Steel,ton
+211,Ball Valve,Plumbing,sq_ft
+212,Ball Valve,Plumbing,ton
+213,Breaker Panel,Electrical,ton
+214,Primer,Paint,ton
+215,Ductwork,HVAC,ton
+216,I Beam Steel,Steel,ton
+217,Ready Mix Concrete,Concrete,yd3
+218,Paint Supplies,Paint,yd3
+219,Drywall Screws,Drywall,linear_ft
+220,Breaker Panel,Electrical,sq_ft
+221,Gypsum Board,Drywall,ea
+222,Electrical Wire,Electrical,linear_ft
+223,Ball Valve,Plumbing,linear_ft
+224,VAV Box,HVAC,yd3
+225,Ductwork,HVAC,sq_ft
+226,PVC Plumbing Pipe,Plumbing,linear_ft
+227,PVC Plumbing Pipe,Plumbing,yd3
+228,Primer,Paint,sq_ft
+229,Exterior Coating,Paint,sq_ft
+230,Air Diffuser,HVAC,yd3
+231,Breaker Panel,Electrical,yd3
+232,Concrete,Concrete,ton
+233,Ready Mix Concrete,Concrete,ton
+234,PVC Plumbing Pipe,Plumbing,sq_ft
+235,I Beam Steel,Steel,ton
+236,Latex Paint,Paint,yd3
+237,Latex Paint,Paint,linear_ft
+238,Paint Supplies,Paint,yd3
+239,Gypsum Board,Drywall,linear_ft
+240,Ductwork,HVAC,sq_ft
+241,Air Diffuser,HVAC,linear_ft
+242,Interior Paint,Paint,ea
+243,Drywall Screws,Drywall,yd3
+244,I Beam Steel,Steel,sq_ft
+245,Ready Mix Concrete,Concrete,sq_ft
+246,Air Diffuser,HVAC,ton
+247,HVAC Compressor,HVAC,ea
+248,Breaker Panel,Electrical,yd3
+249,Air Diffuser,HVAC,yd3
+250,Ductwork,HVAC,ea
+251,I Beam Steel,Steel,linear_ft
+252,Plumbing Fixture,Plumbing,sq_ft
+253,Concrete Mix,Concrete,sq_ft
+254,LED Fixture,Electrical,ton
+255,Steel Rebar,Steel,ea
+256,Structural Steel Beam,Steel,sq_ft
+257,Breaker Panel,Electrical,yd3
+258,Portland Cement,Concrete,ton
+259,VAV Box,HVAC,sq_ft
+260,Drywall Screws,Drywall,linear_ft
+261,Concrete,Concrete,ea
+262,Copper Pipe,Plumbing,yd3
+263,Interior Paint,Paint,linear_ft
+264,Portland Cement,Concrete,ton
+265,LED Fixture,Electrical,linear_ft
+266,HVAC Compressor,HVAC,ton
+267,Drywall Screws,Drywall,linear_ft
+268,Structural Steel Beam,Steel,linear_ft
+269,Ball Valve,Plumbing,linear_ft
+270,Steel Rebar,Steel,sq_ft
+271,HVAC Compressor,HVAC,ton
+272,Latex Paint,Paint,ea
+273,Drywall Screws,Drywall,yd3
+274,Pipe Fittings,Plumbing,sq_ft
+275,Exterior Coating,Paint,sq_ft
+276,Air Diffuser,HVAC,ton
+277,Concrete,Concrete,ton
+278,HVAC Compressor,HVAC,ea
+279,Interior Paint,Paint,ton
+280,Primer,Paint,linear_ft
+281,Exterior Coating,Paint,yd3
+282,Paint Supplies,Paint,ton
+283,Concrete Mix,Concrete,sq_ft
+284,Plumbing Fixture,Plumbing,sq_ft
+285,Air Diffuser,HVAC,linear_ft
+286,Concrete,Concrete,ea
+287,Interior Paint,Paint,yd3
+288,Drywall Screws,Drywall,sq_ft
+289,Latex Paint,Paint,yd3
+290,Primer,Paint,yd3
+291,Plumbing Fixture,Plumbing,yd3
+292,PVC Plumbing Pipe,Plumbing,sq_ft
+293,Portland Cement,Concrete,ton
+294,Ductwork,HVAC,yd3
+295,Ball Valve,Plumbing,linear_ft
+296,LED Fixture,Electrical,linear_ft
+297,Gypsum Board,Drywall,linear_ft
+298,Sheetrock,Drywall,linear_ft
+299,Interior Paint,Paint,yd3
+300,Exterior Coating,Paint,yd3
+301,HVAC Compressor,HVAC,ea
+302,Drywall Screws,Drywall,ton
+303,Plumbing Fixture,Plumbing,linear_ft
+304,Steel Plate,Steel,linear_ft
+305,Drywall Screws,Drywall,yd3
+306,Rebar Grade 60,Steel,sq_ft
+307,Cement Blend,Concrete,linear_ft
+308,Portland Cement,Concrete,ea
+309,I Beam Steel,Steel,sq_ft
+310,Steel Rebar,Steel,linear_ft
+311,PVC Plumbing Pipe,Plumbing,ton
+312,Concrete,Concrete,linear_ft
+313,Conduit,Electrical,ea
+314,VAV Box,HVAC,yd3
+315,Air Diffuser,HVAC,linear_ft
+316,Pipe Fittings,Plumbing,ea
+317,Joint Compound,Drywall,sq_ft
+318,Air Diffuser,HVAC,yd3
+319,Joint Compound,Drywall,ea
+320,Portland Cement,Concrete,yd3
+321,VAV Box,HVAC,linear_ft
+322,Drywall Screws,Drywall,yd3
+323,Latex Paint,Paint,ton
+324,PVC Plumbing Pipe,Plumbing,linear_ft
+325,Latex Paint,Paint,sq_ft
+326,Joint Compound,Drywall,yd3
+327,Rebar Grade 60,Steel,ton
+328,Rebar Grade 60,Steel,linear_ft
+329,HVAC Air Handler,HVAC,ton
+330,Ball Valve,Plumbing,ea
+331,Conduit,Electrical,yd3
+332,Rebar Grade 60,Steel,ton
+333,Pipe Fittings,Plumbing,sq_ft
+334,Structural Steel Beam,Steel,ton
+335,Ready Mix Concrete,Concrete,sq_ft
+336,Joint Compound,Drywall,linear_ft
+337,Steel Rebar,Steel,ea
+338,Paint Supplies,Paint,ton
+339,Gypsum Board,Drywall,ton
+340,Ductwork,HVAC,ton
+341,Air Diffuser,HVAC,yd3
+342,Ball Valve,Plumbing,ton
+343,Ductwork,HVAC,linear_ft
+344,Electrical Wire,Electrical,yd3
+345,Electrical Wire,Electrical,linear_ft
+346,Portland Cement,Concrete,sq_ft
+347,HVAC Compressor,HVAC,sq_ft
+348,Drywall Screws,Drywall,yd3
+349,Paint Supplies,Paint,ton
+350,Copper Pipe,Plumbing,linear_ft
+351,Ductwork,HVAC,ea
+352,Pipe Fittings,Plumbing,yd3
+353,Exterior Coating,Paint,ton
+354,Gypsum Board,Drywall,linear_ft
+355,Drywall Sheet,Drywall,linear_ft
+356,VAV Box,HVAC,yd3
+357,Air Diffuser,HVAC,ton
+358,Drywall Screws,Drywall,ton
+359,Joint Compound,Drywall,linear_ft
+360,Pipe Fittings,Plumbing,ea
+361,VAV Box,HVAC,linear_ft
+362,HVAC Air Handler,HVAC,ton
+363,Cement Blend,Concrete,ea
+364,Interior Paint,Paint,sq_ft
+365,I Beam Steel,Steel,sq_ft
+366,Cement Blend,Concrete,ton
+367,Pipe Fittings,Plumbing,yd3
+368,Latex Paint,Paint,yd3
+369,Gypsum Board,Drywall,sq_ft
+370,Cement Blend,Concrete,ea
+371,Conduit,Electrical,yd3
+372,VAV Box,HVAC,ton
+373,Breaker Panel,Electrical,yd3
+374,Latex Paint,Paint,ea
+375,Junction Box,Electrical,linear_ft
+376,Interior Paint,Paint,ea
+377,Joint Compound,Drywall,yd3
+378,Junction Box,Electrical,ea
+379,Drywall Sheet,Drywall,ton
+380,Air Diffuser,HVAC,linear_ft
+381,PVC Plumbing Pipe,Plumbing,ea
+382,I Beam Steel,Steel,sq_ft
+383,Copper Pipe,Plumbing,ton
+384,Steel Rebar,Steel,sq_ft
+385,Exterior Coating,Paint,sq_ft
+386,Primer,Paint,yd3
+387,LED Fixture,Electrical,sq_ft
+388,Gypsum Board,Drywall,ton
+389,Exterior Coating,Paint,ton
+390,LED Fixture,Electrical,linear_ft
+391,Paint Supplies,Paint,ton
+392,Steel Plate,Steel,linear_ft
+393,Gypsum Board,Drywall,ea
+394,Plumbing Fixture,Plumbing,sq_ft
+395,Interior Paint,Paint,linear_ft
+396,Exterior Coating,Paint,sq_ft
+397,Gypsum Board,Drywall,ton
+398,Junction Box,Electrical,linear_ft
+399,I Beam Steel,Steel,linear_ft
+400,Concrete Mix,Concrete,ton
+401,Concrete Mix,Concrete,ea
+402,Steel Rebar,Steel,yd3
+403,Steel Rebar,Steel,linear_ft
+404,Ductwork,HVAC,yd3
+405,Joint Compound,Drywall,ton
+406,Primer,Paint,ton
+407,I Beam Steel,Steel,ton
+408,Electrical Wire,Electrical,linear_ft
+409,Steel Rebar,Steel,linear_ft
+410,Conduit,Electrical,ea
+411,HVAC Compressor,HVAC,yd3
+412,Plumbing Fixture,Plumbing,ton
+413,Electrical Wire,Electrical,sq_ft
+414,Primer,Paint,linear_ft
+415,Paint Supplies,Paint,linear_ft
+416,Structural Steel Beam,Steel,ea
+417,Exterior Coating,Paint,yd3
+418,Exterior Coating,Paint,linear_ft
+419,Junction Box,Electrical,sq_ft
+420,Concrete,Concrete,linear_ft
+421,VAV Box,HVAC,linear_ft
+422,Interior Paint,Paint,linear_ft
+423,Joint Compound,Drywall,linear_ft
+424,Ready Mix Concrete,Concrete,yd3
+425,Pipe Fittings,Plumbing,yd3
+426,LED Fixture,Electrical,ea
+427,Interior Paint,Paint,sq_ft
+428,Plumbing Fixture,Plumbing,linear_ft
+429,Conduit,Electrical,ea
+430,Latex Paint,Paint,linear_ft
+431,Drywall Sheet,Drywall,sq_ft
+432,Steel Plate,Steel,sq_ft
+433,Latex Paint,Paint,yd3
+434,Cement Blend,Concrete,yd3
+435,Pipe Fittings,Plumbing,ea
+436,Latex Paint,Paint,sq_ft
+437,Junction Box,Electrical,sq_ft
+438,Steel Rebar,Steel,ea
+439,I Beam Steel,Steel,yd3
+440,Plumbing Fixture,Plumbing,ea
+441,Paint Supplies,Paint,yd3
+442,LED Fixture,Electrical,ea
+443,PVC Plumbing Pipe,Plumbing,ton
+444,Steel Rebar,Steel,sq_ft
+445,VAV Box,HVAC,ea
+446,Interior Paint,Paint,linear_ft
+447,Plumbing Fixture,Plumbing,sq_ft
+448,Concrete Mix,Concrete,ea
+449,Rebar Grade 60,Steel,sq_ft
+450,Gypsum Board,Drywall,linear_ft
+451,Concrete,Concrete,linear_ft
+452,HVAC Compressor,HVAC,yd3
+453,Concrete Mix,Concrete,ton
+454,Steel Plate,Steel,linear_ft
+455,Ready Mix Concrete,Concrete,linear_ft
+456,Ductwork,HVAC,ea
+457,Steel Plate,Steel,ea
+458,Plumbing Fixture,Plumbing,linear_ft
+459,Sheetrock,Drywall,ton
+460,Pipe Fittings,Plumbing,sq_ft
+461,Electrical Wire,Electrical,sq_ft
+462,Copper Pipe,Plumbing,yd3
+463,Sheetrock,Drywall,yd3
+464,Portland Cement,Concrete,ton
+465,Structural Steel Beam,Steel,sq_ft
+466,HVAC Air Handler,HVAC,ton
+467,Joint Compound,Drywall,linear_ft
+468,Joint Compound,Drywall,ton
+469,Junction Box,Electrical,ea
+470,Air Diffuser,HVAC,sq_ft
+471,Joint Compound,Drywall,ea
+472,I Beam Steel,Steel,ea
+473,Exterior Coating,Paint,linear_ft
+474,Structural Steel Beam,Steel,linear_ft
+475,Ready Mix Concrete,Concrete,ea
+476,Drywall Screws,Drywall,sq_ft
+477,Ductwork,HVAC,linear_ft
+478,Junction Box,Electrical,sq_ft
+479,Copper Pipe,Plumbing,sq_ft
+480,Steel Plate,Steel,ton
+481,PVC Plumbing Pipe,Plumbing,ea
+482,PVC Plumbing Pipe,Plumbing,yd3
+483,Cement Blend,Concrete,linear_ft
+484,Steel Plate,Steel,sq_ft
+485,Concrete,Concrete,yd3
+486,Copper Pipe,Plumbing,linear_ft
+487,HVAC Compressor,HVAC,ea
+488,Cement Blend,Concrete,ea
+489,Electrical Wire,Electrical,ea
+490,Plumbing Fixture,Plumbing,yd3
+491,Exterior Coating,Paint,ton
+492,Conduit,Electrical,ton
+493,Ready Mix Concrete,Concrete,ea
+494,Ball Valve,Plumbing,ea
+495,Ball Valve,Plumbing,linear_ft
+496,Sheetrock,Drywall,ea
+497,LED Fixture,Electrical,yd3
+498,Latex Paint,Paint,yd3
+499,PVC Plumbing Pipe,Plumbing,ton
+500,Copper Pipe,Plumbing,sq_ft

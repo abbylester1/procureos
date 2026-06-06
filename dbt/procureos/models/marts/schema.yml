@@ -1,0 +1,75 @@
+version: 2
+
+models:
+  - name: fct_procurement_events
+    description: Unified procurement event fact table for observability and audit trails.
+    columns:
+      - name: event_id
+        description: Unique procurement event identifier.
+        tests:
+          - not_null
+          - unique
+      - name: rfq_id
+        description: RFQ identifier associated with the event.
+        tests:
+          - not_null
+      - name: event_type
+        description: Procurement lifecycle event type.
+        tests:
+          - not_null
+
+  - name: fct_vendor_scores
+    description: Supplier scoring fact table with coverage, price, delivery, risk, and total score.
+    columns:
+      - name: rfq_id
+        description: RFQ identifier.
+        tests:
+          - not_null
+      - name: supplier_id
+        description: Supplier identifier.
+        tests:
+          - not_null
+      - name: total_score
+        description: Weighted supplier recommendation score.
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 100
+
+  - name: fct_procurement_savings
+    description: Supplier savings fact table comparing each quote against RFQ supplier benchmarks.
+    columns:
+      - name: rfq_id
+        description: RFQ identifier.
+        tests:
+          - not_null
+      - name: supplier_id
+        description: Supplier identifier.
+        tests:
+          - not_null
+      - name: supplier_rank
+        description: Rank by total score with deterministic tiebreakers.
+        tests:
+          - not_null
+
+  - name: procurement_recommendations
+    description: One recommended supplier per RFQ with explainable savings and confidence.
+    columns:
+      - name: rfq_id
+        description: RFQ identifier, unique at recommendation grain.
+        tests:
+          - not_null
+          - unique
+      - name: recommended_supplier_id
+        description: Recommended supplier identifier.
+        tests:
+          - not_null
+      - name: recommended_supplier
+        description: Recommended supplier display name.
+        tests:
+          - not_null
+      - name: estimated_savings
+        description: Estimated savings versus supplier average.
+        tests:
+          - not_null

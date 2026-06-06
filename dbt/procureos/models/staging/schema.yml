@@ -1,0 +1,80 @@
+version: 2
+
+models:
+  - name: stg_rfqs
+    description: Cleaned RFQ header records for procurement projects.
+    columns:
+      - name: rfq_id
+        description: Unique RFQ identifier.
+        tests:
+          - not_null
+          - unique
+      - name: project_name
+        description: Procurement project name.
+        tests:
+          - not_null
+      - name: budget
+        description: Approved project budget in USD.
+        tests:
+          - not_null
+
+  - name: stg_suppliers
+    description: Cleaned supplier master records.
+    columns:
+      - name: supplier_id
+        description: Unique supplier identifier.
+        tests:
+          - not_null
+          - unique
+      - name: supplier_name
+        description: Supplier display name.
+        tests:
+          - not_null
+      - name: reliability_score
+        description: Historical supplier reliability score.
+
+  - name: stg_quotes
+    description: Cleaned supplier quote line items.
+    columns:
+      - name: quote_id
+        description: Unique quote line identifier.
+        tests:
+          - not_null
+          - unique
+      - name: rfq_id
+        description: RFQ identifier for this quote.
+        tests:
+          - not_null
+      - name: supplier_name
+        description: Supplier display name.
+        tests:
+          - not_null
+      - name: unit_price
+        description: Quoted unit price.
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              strictly: true
+      - name: currency
+        description: Quote currency.
+        tests:
+          - accepted_values:
+              values: ['USD', 'EUR', 'GBP', 'CAD', 'MXN']
+
+  - name: stg_materials
+    description: RFQ material line items and construction material catalog entries.
+    columns:
+      - name: material_line_id
+        description: Synthetic material line identifier.
+        tests:
+          - not_null
+          - unique
+      - name: material_name
+        description: Raw material name.
+        tests:
+          - not_null
+      - name: category
+        description: Construction procurement category.
+        tests:
+          - not_null

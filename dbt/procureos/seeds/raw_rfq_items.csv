@@ -1,0 +1,501 @@
+rfq_id,line_number,material_name,category,quantity,unit,required_delivery_days
+RFQ-1001,1,Exterior Coating,Paint,150,ton,11
+RFQ-1001,2,Interior Paint,Paint,371,sq_ft,9
+RFQ-1001,3,Junction Box,Electrical,41,yd3,9
+RFQ-1001,4,Steel Rebar,Steel,283,sq_ft,7
+RFQ-1001,5,Conduit,Electrical,391,sq_ft,20
+RFQ-1001,6,Steel Plate,Steel,326,ea,32
+RFQ-1001,7,Drywall Sheet,Drywall,413,ton,29
+RFQ-1001,8,Ball Valve,Plumbing,167,ton,13
+RFQ-1001,9,Sheetrock,Drywall,77,yd3,19
+RFQ-1001,10,Concrete,Concrete,458,ea,26
+RFQ-1002,1,Cement Blend,Concrete,453,yd3,9
+RFQ-1002,2,Gypsum Board,Drywall,110,linear_ft,22
+RFQ-1002,3,PVC Plumbing Pipe,Plumbing,467,linear_ft,35
+RFQ-1002,4,Concrete Mix,Concrete,219,yd3,19
+RFQ-1002,5,Air Diffuser,HVAC,171,linear_ft,29
+RFQ-1002,6,Latex Paint,Paint,363,linear_ft,11
+RFQ-1002,7,Rebar Grade 60,Steel,136,yd3,25
+RFQ-1002,8,Latex Paint,Paint,56,ea,8
+RFQ-1002,9,Cement Blend,Concrete,269,sq_ft,34
+RFQ-1002,10,Conduit,Electrical,54,sq_ft,9
+RFQ-1003,1,Pipe Fittings,Plumbing,451,yd3,16
+RFQ-1003,2,Ductwork,HVAC,245,sq_ft,26
+RFQ-1003,3,Exterior Coating,Paint,263,linear_ft,21
+RFQ-1003,4,Primer,Paint,286,linear_ft,32
+RFQ-1003,5,Gypsum Board,Drywall,362,yd3,16
+RFQ-1003,6,LED Fixture,Electrical,196,yd3,33
+RFQ-1003,7,Gypsum Board,Drywall,369,ea,14
+RFQ-1003,8,Gypsum Board,Drywall,100,yd3,8
+RFQ-1003,9,Steel Plate,Steel,337,yd3,21
+RFQ-1003,10,Pipe Fittings,Plumbing,124,linear_ft,22
+RFQ-1004,1,Joint Compound,Drywall,316,sq_ft,28
+RFQ-1004,2,Ball Valve,Plumbing,39,linear_ft,34
+RFQ-1004,3,Ductwork,HVAC,274,ton,18
+RFQ-1004,4,Sheetrock,Drywall,199,ea,35
+RFQ-1004,5,Breaker Panel,Electrical,309,yd3,23
+RFQ-1004,6,Structural Steel Beam,Steel,148,linear_ft,22
+RFQ-1004,7,Conduit,Electrical,378,linear_ft,27
+RFQ-1004,8,Paint Supplies,Paint,254,yd3,9
+RFQ-1004,9,Ductwork,HVAC,232,ton,16
+RFQ-1004,10,Latex Paint,Paint,213,linear_ft,24
+RFQ-1005,1,Concrete Mix,Concrete,280,ea,23
+RFQ-1005,2,Exterior Coating,Paint,237,linear_ft,22
+RFQ-1005,3,Steel Plate,Steel,307,ton,19
+RFQ-1005,4,I Beam Steel,Steel,285,ton,34
+RFQ-1005,5,Concrete,Concrete,420,linear_ft,17
+RFQ-1005,6,Drywall Screws,Drywall,161,yd3,16
+RFQ-1005,7,Exterior Coating,Paint,453,sq_ft,25
+RFQ-1005,8,Paint Supplies,Paint,468,ton,21
+RFQ-1005,9,Junction Box,Electrical,201,ea,24
+RFQ-1005,10,Drywall Screws,Drywall,218,linear_ft,17
+RFQ-1006,1,Air Diffuser,HVAC,84,yd3,14
+RFQ-1006,2,Conduit,Electrical,223,linear_ft,18
+RFQ-1006,3,Latex Paint,Paint,239,sq_ft,30
+RFQ-1006,4,Primer,Paint,478,linear_ft,27
+RFQ-1006,5,Portland Cement,Concrete,340,linear_ft,15
+RFQ-1006,6,Concrete,Concrete,136,linear_ft,21
+RFQ-1006,7,Rebar Grade 60,Steel,75,ea,24
+RFQ-1006,8,Exterior Coating,Paint,56,linear_ft,15
+RFQ-1006,9,Structural Steel Beam,Steel,459,linear_ft,9
+RFQ-1006,10,Primer,Paint,353,sq_ft,7
+RFQ-1007,1,Exterior Coating,Paint,61,linear_ft,34
+RFQ-1007,2,Interior Paint,Paint,248,yd3,21
+RFQ-1007,3,Concrete,Concrete,319,linear_ft,25
+RFQ-1007,4,Plumbing Fixture,Plumbing,173,yd3,19
+RFQ-1007,5,Concrete,Concrete,112,sq_ft,21
+RFQ-1007,6,Sheetrock,Drywall,70,linear_ft,34
+RFQ-1007,7,Concrete Mix,Concrete,248,sq_ft,19
+RFQ-1007,8,Electrical Wire,Electrical,227,ea,30
+RFQ-1007,9,Ductwork,HVAC,195,ton,9
+RFQ-1007,10,Electrical Wire,Electrical,296,sq_ft,13
+RFQ-1008,1,Concrete,Concrete,494,linear_ft,29
+RFQ-1008,2,Gypsum Board,Drywall,413,linear_ft,21
+RFQ-1008,3,Electrical Wire,Electrical,488,yd3,7
+RFQ-1008,4,Ductwork,HVAC,452,ton,24
+RFQ-1008,5,Latex Paint,Paint,295,linear_ft,10
+RFQ-1008,6,Sheetrock,Drywall,146,ea,10
+RFQ-1008,7,Concrete Mix,Concrete,239,sq_ft,21
+RFQ-1008,8,Ready Mix Concrete,Concrete,453,linear_ft,26
+RFQ-1008,9,Electrical Wire,Electrical,348,sq_ft,25
+RFQ-1008,10,Steel Rebar,Steel,174,linear_ft,7
+RFQ-1009,1,Gypsum Board,Drywall,246,sq_ft,34
+RFQ-1009,2,Ready Mix Concrete,Concrete,290,ton,16
+RFQ-1009,3,Steel Rebar,Steel,190,ton,18
+RFQ-1009,4,Breaker Panel,Electrical,458,yd3,15
+RFQ-1009,5,I Beam Steel,Steel,165,ton,27
+RFQ-1009,6,VAV Box,HVAC,298,yd3,23
+RFQ-1009,7,Primer,Paint,328,sq_ft,11
+RFQ-1009,8,I Beam Steel,Steel,393,sq_ft,17
+RFQ-1009,9,Drywall Screws,Drywall,46,yd3,9
+RFQ-1009,10,Cement Blend,Concrete,160,ton,31
+RFQ-1010,1,Ductwork,HVAC,173,yd3,16
+RFQ-1010,2,Interior Paint,Paint,202,linear_ft,27
+RFQ-1010,3,Air Diffuser,HVAC,134,ton,33
+RFQ-1010,4,Breaker Panel,Electrical,312,ea,11
+RFQ-1010,5,Cement Blend,Concrete,404,sq_ft,14
+RFQ-1010,6,Structural Steel Beam,Steel,367,sq_ft,14
+RFQ-1010,7,Primer,Paint,51,yd3,20
+RFQ-1010,8,Air Diffuser,HVAC,76,ton,7
+RFQ-1010,9,Conduit,Electrical,233,linear_ft,22
+RFQ-1010,10,Primer,Paint,412,ea,17
+RFQ-1011,1,Cement Blend,Concrete,42,linear_ft,26
+RFQ-1011,2,Interior Paint,Paint,150,yd3,19
+RFQ-1011,3,PVC Plumbing Pipe,Plumbing,301,ton,31
+RFQ-1011,4,Drywall Sheet,Drywall,96,sq_ft,16
+RFQ-1011,5,I Beam Steel,Steel,188,sq_ft,26
+RFQ-1011,6,Sheetrock,Drywall,146,ea,35
+RFQ-1011,7,I Beam Steel,Steel,138,linear_ft,16
+RFQ-1011,8,HVAC Air Handler,HVAC,310,sq_ft,35
+RFQ-1011,9,Primer,Paint,345,linear_ft,24
+RFQ-1011,10,Copper Pipe,Plumbing,201,linear_ft,32
+RFQ-1012,1,I Beam Steel,Steel,148,sq_ft,33
+RFQ-1012,2,Joint Compound,Drywall,371,sq_ft,17
+RFQ-1012,3,PVC Plumbing Pipe,Plumbing,429,yd3,23
+RFQ-1012,4,Exterior Coating,Paint,52,yd3,20
+RFQ-1012,5,Structural Steel Beam,Steel,199,sq_ft,31
+RFQ-1012,6,LED Fixture,Electrical,228,ea,7
+RFQ-1012,7,Exterior Coating,Paint,426,linear_ft,22
+RFQ-1012,8,Rebar Grade 60,Steel,308,linear_ft,20
+RFQ-1012,9,I Beam Steel,Steel,363,linear_ft,9
+RFQ-1012,10,Drywall Screws,Drywall,176,ton,29
+RFQ-1013,1,HVAC Air Handler,HVAC,320,yd3,32
+RFQ-1013,2,Drywall Screws,Drywall,120,ea,17
+RFQ-1013,3,Steel Plate,Steel,83,ea,28
+RFQ-1013,4,Joint Compound,Drywall,295,ea,26
+RFQ-1013,5,Pipe Fittings,Plumbing,225,sq_ft,10
+RFQ-1013,6,HVAC Compressor,HVAC,457,linear_ft,26
+RFQ-1013,7,Rebar Grade 60,Steel,495,sq_ft,25
+RFQ-1013,8,Concrete Mix,Concrete,185,yd3,14
+RFQ-1013,9,HVAC Air Handler,HVAC,118,ea,29
+RFQ-1013,10,I Beam Steel,Steel,223,linear_ft,26
+RFQ-1014,1,Ductwork,HVAC,220,ton,27
+RFQ-1014,2,Primer,Paint,60,sq_ft,25
+RFQ-1014,3,Cement Blend,Concrete,357,ton,21
+RFQ-1014,4,Ductwork,HVAC,346,ton,20
+RFQ-1014,5,Junction Box,Electrical,465,ton,9
+RFQ-1014,6,Concrete Mix,Concrete,410,yd3,25
+RFQ-1014,7,Paint Supplies,Paint,204,linear_ft,17
+RFQ-1014,8,Gypsum Board,Drywall,151,ea,27
+RFQ-1014,9,Concrete Mix,Concrete,308,sq_ft,26
+RFQ-1014,10,Latex Paint,Paint,170,yd3,34
+RFQ-1015,1,PVC Plumbing Pipe,Plumbing,146,ea,15
+RFQ-1015,2,Sheetrock,Drywall,499,linear_ft,29
+RFQ-1015,3,Sheetrock,Drywall,187,linear_ft,15
+RFQ-1015,4,Structural Steel Beam,Steel,128,ton,31
+RFQ-1015,5,Drywall Screws,Drywall,80,ton,10
+RFQ-1015,6,Steel Plate,Steel,263,ea,20
+RFQ-1015,7,Cement Blend,Concrete,208,ton,21
+RFQ-1015,8,Air Diffuser,HVAC,160,yd3,9
+RFQ-1015,9,Rebar Grade 60,Steel,448,sq_ft,8
+RFQ-1015,10,Rebar Grade 60,Steel,100,yd3,29
+RFQ-1016,1,Drywall Screws,Drywall,41,ton,26
+RFQ-1016,2,VAV Box,HVAC,138,sq_ft,10
+RFQ-1016,3,PVC Plumbing Pipe,Plumbing,194,yd3,14
+RFQ-1016,4,HVAC Compressor,HVAC,110,yd3,33
+RFQ-1016,5,Exterior Coating,Paint,253,yd3,15
+RFQ-1016,6,Steel Rebar,Steel,379,yd3,18
+RFQ-1016,7,HVAC Air Handler,HVAC,393,yd3,8
+RFQ-1016,8,Plumbing Fixture,Plumbing,400,linear_ft,12
+RFQ-1016,9,Plumbing Fixture,Plumbing,476,linear_ft,18
+RFQ-1016,10,Junction Box,Electrical,76,linear_ft,32
+RFQ-1017,1,Junction Box,Electrical,94,sq_ft,35
+RFQ-1017,2,Electrical Wire,Electrical,113,ton,35
+RFQ-1017,3,Gypsum Board,Drywall,453,yd3,14
+RFQ-1017,4,Portland Cement,Concrete,50,ea,29
+RFQ-1017,5,Rebar Grade 60,Steel,213,linear_ft,23
+RFQ-1017,6,Copper Pipe,Plumbing,373,yd3,14
+RFQ-1017,7,Air Diffuser,HVAC,329,linear_ft,12
+RFQ-1017,8,Joint Compound,Drywall,325,sq_ft,18
+RFQ-1017,9,Ductwork,HVAC,453,ea,30
+RFQ-1017,10,Drywall Sheet,Drywall,170,yd3,19
+RFQ-1018,1,Interior Paint,Paint,217,ea,31
+RFQ-1018,2,LED Fixture,Electrical,49,sq_ft,8
+RFQ-1018,3,Interior Paint,Paint,359,yd3,8
+RFQ-1018,4,Interior Paint,Paint,238,linear_ft,19
+RFQ-1018,5,Cement Blend,Concrete,154,linear_ft,29
+RFQ-1018,6,Steel Rebar,Steel,380,yd3,16
+RFQ-1018,7,Copper Pipe,Plumbing,364,sq_ft,15
+RFQ-1018,8,LED Fixture,Electrical,383,ton,20
+RFQ-1018,9,Drywall Sheet,Drywall,286,sq_ft,10
+RFQ-1018,10,HVAC Air Handler,HVAC,426,yd3,22
+RFQ-1019,1,Joint Compound,Drywall,48,sq_ft,10
+RFQ-1019,2,Joint Compound,Drywall,259,sq_ft,23
+RFQ-1019,3,Steel Plate,Steel,27,sq_ft,30
+RFQ-1019,4,Cement Blend,Concrete,246,sq_ft,22
+RFQ-1019,5,Conduit,Electrical,379,sq_ft,12
+RFQ-1019,6,Primer,Paint,78,linear_ft,28
+RFQ-1019,7,LED Fixture,Electrical,476,ea,23
+RFQ-1019,8,Plumbing Fixture,Plumbing,336,ton,15
+RFQ-1019,9,Ball Valve,Plumbing,175,linear_ft,32
+RFQ-1019,10,Steel Rebar,Steel,236,sq_ft,29
+RFQ-1020,1,Interior Paint,Paint,298,yd3,27
+RFQ-1020,2,Latex Paint,Paint,57,sq_ft,8
+RFQ-1020,3,Interior Paint,Paint,208,sq_ft,10
+RFQ-1020,4,HVAC Compressor,HVAC,335,yd3,16
+RFQ-1020,5,Joint Compound,Drywall,220,linear_ft,33
+RFQ-1020,6,Interior Paint,Paint,267,ton,24
+RFQ-1020,7,Steel Rebar,Steel,407,linear_ft,32
+RFQ-1020,8,Drywall Screws,Drywall,176,ton,16
+RFQ-1020,9,Exterior Coating,Paint,30,sq_ft,34
+RFQ-1020,10,Conduit,Electrical,88,yd3,7
+RFQ-1021,1,Electrical Wire,Electrical,474,ea,9
+RFQ-1021,2,Steel Plate,Steel,335,linear_ft,34
+RFQ-1021,3,PVC Plumbing Pipe,Plumbing,137,linear_ft,26
+RFQ-1021,4,I Beam Steel,Steel,445,ton,26
+RFQ-1021,5,Latex Paint,Paint,160,ton,30
+RFQ-1021,6,Exterior Coating,Paint,497,linear_ft,26
+RFQ-1021,7,Electrical Wire,Electrical,142,linear_ft,19
+RFQ-1021,8,Structural Steel Beam,Steel,33,ton,23
+RFQ-1021,9,Drywall Screws,Drywall,375,linear_ft,33
+RFQ-1021,10,I Beam Steel,Steel,74,ton,22
+RFQ-1022,1,Ball Valve,Plumbing,63,sq_ft,12
+RFQ-1022,2,Ball Valve,Plumbing,206,ton,35
+RFQ-1022,3,Breaker Panel,Electrical,118,ton,22
+RFQ-1022,4,Primer,Paint,145,ton,34
+RFQ-1022,5,Ductwork,HVAC,142,ton,33
+RFQ-1022,6,I Beam Steel,Steel,207,ton,31
+RFQ-1022,7,Ready Mix Concrete,Concrete,496,yd3,28
+RFQ-1022,8,Paint Supplies,Paint,339,yd3,31
+RFQ-1022,9,Drywall Screws,Drywall,46,linear_ft,18
+RFQ-1022,10,Breaker Panel,Electrical,277,sq_ft,34
+RFQ-1023,1,Gypsum Board,Drywall,201,ea,22
+RFQ-1023,2,Electrical Wire,Electrical,377,linear_ft,31
+RFQ-1023,3,Ball Valve,Plumbing,29,linear_ft,32
+RFQ-1023,4,VAV Box,HVAC,143,yd3,24
+RFQ-1023,5,Ductwork,HVAC,235,sq_ft,20
+RFQ-1023,6,PVC Plumbing Pipe,Plumbing,108,linear_ft,33
+RFQ-1023,7,PVC Plumbing Pipe,Plumbing,159,yd3,20
+RFQ-1023,8,Primer,Paint,289,sq_ft,32
+RFQ-1023,9,Exterior Coating,Paint,170,sq_ft,32
+RFQ-1023,10,Air Diffuser,HVAC,121,yd3,12
+RFQ-1024,1,Breaker Panel,Electrical,295,yd3,30
+RFQ-1024,2,Concrete,Concrete,64,ton,23
+RFQ-1024,3,Ready Mix Concrete,Concrete,396,ton,24
+RFQ-1024,4,PVC Plumbing Pipe,Plumbing,123,sq_ft,28
+RFQ-1024,5,I Beam Steel,Steel,345,ton,24
+RFQ-1024,6,Latex Paint,Paint,237,yd3,31
+RFQ-1024,7,Latex Paint,Paint,208,linear_ft,29
+RFQ-1024,8,Paint Supplies,Paint,477,yd3,12
+RFQ-1024,9,Gypsum Board,Drywall,306,linear_ft,23
+RFQ-1024,10,Ductwork,HVAC,298,sq_ft,21
+RFQ-1025,1,Air Diffuser,HVAC,143,linear_ft,23
+RFQ-1025,2,Interior Paint,Paint,487,ea,22
+RFQ-1025,3,Drywall Screws,Drywall,297,yd3,12
+RFQ-1025,4,I Beam Steel,Steel,259,sq_ft,29
+RFQ-1025,5,Ready Mix Concrete,Concrete,151,sq_ft,16
+RFQ-1025,6,Air Diffuser,HVAC,226,ton,7
+RFQ-1025,7,HVAC Compressor,HVAC,206,ea,14
+RFQ-1025,8,Breaker Panel,Electrical,440,yd3,27
+RFQ-1025,9,Air Diffuser,HVAC,480,yd3,24
+RFQ-1025,10,Ductwork,HVAC,102,ea,35
+RFQ-1026,1,I Beam Steel,Steel,362,linear_ft,21
+RFQ-1026,2,Plumbing Fixture,Plumbing,65,sq_ft,26
+RFQ-1026,3,Concrete Mix,Concrete,476,sq_ft,15
+RFQ-1026,4,LED Fixture,Electrical,444,ton,8
+RFQ-1026,5,Steel Rebar,Steel,53,ea,8
+RFQ-1026,6,Structural Steel Beam,Steel,366,sq_ft,33
+RFQ-1026,7,Breaker Panel,Electrical,194,yd3,8
+RFQ-1026,8,Portland Cement,Concrete,116,ton,28
+RFQ-1026,9,VAV Box,HVAC,363,sq_ft,25
+RFQ-1026,10,Drywall Screws,Drywall,115,linear_ft,30
+RFQ-1027,1,Concrete,Concrete,338,ea,24
+RFQ-1027,2,Copper Pipe,Plumbing,91,yd3,22
+RFQ-1027,3,Interior Paint,Paint,79,linear_ft,8
+RFQ-1027,4,Portland Cement,Concrete,225,ton,29
+RFQ-1027,5,LED Fixture,Electrical,347,linear_ft,26
+RFQ-1027,6,HVAC Compressor,HVAC,195,ton,29
+RFQ-1027,7,Drywall Screws,Drywall,65,linear_ft,25
+RFQ-1027,8,Structural Steel Beam,Steel,441,linear_ft,10
+RFQ-1027,9,Ball Valve,Plumbing,375,linear_ft,22
+RFQ-1027,10,Steel Rebar,Steel,98,sq_ft,15
+RFQ-1028,1,HVAC Compressor,HVAC,173,ton,8
+RFQ-1028,2,Latex Paint,Paint,408,ea,30
+RFQ-1028,3,Drywall Screws,Drywall,158,yd3,27
+RFQ-1028,4,Pipe Fittings,Plumbing,111,sq_ft,8
+RFQ-1028,5,Exterior Coating,Paint,439,sq_ft,7
+RFQ-1028,6,Air Diffuser,HVAC,67,ton,23
+RFQ-1028,7,Concrete,Concrete,154,ton,26
+RFQ-1028,8,HVAC Compressor,HVAC,464,ea,7
+RFQ-1028,9,Interior Paint,Paint,334,ton,25
+RFQ-1028,10,Primer,Paint,362,linear_ft,18
+RFQ-1029,1,Exterior Coating,Paint,274,yd3,35
+RFQ-1029,2,Paint Supplies,Paint,401,ton,11
+RFQ-1029,3,Concrete Mix,Concrete,37,sq_ft,14
+RFQ-1029,4,Plumbing Fixture,Plumbing,57,sq_ft,27
+RFQ-1029,5,Air Diffuser,HVAC,298,linear_ft,7
+RFQ-1029,6,Concrete,Concrete,53,ea,32
+RFQ-1029,7,Interior Paint,Paint,232,yd3,13
+RFQ-1029,8,Drywall Screws,Drywall,259,sq_ft,11
+RFQ-1029,9,Latex Paint,Paint,144,yd3,8
+RFQ-1029,10,Primer,Paint,275,yd3,22
+RFQ-1030,1,Plumbing Fixture,Plumbing,439,yd3,21
+RFQ-1030,2,PVC Plumbing Pipe,Plumbing,67,sq_ft,31
+RFQ-1030,3,Portland Cement,Concrete,136,ton,18
+RFQ-1030,4,Ductwork,HVAC,356,yd3,7
+RFQ-1030,5,Ball Valve,Plumbing,107,linear_ft,34
+RFQ-1030,6,LED Fixture,Electrical,37,linear_ft,21
+RFQ-1030,7,Gypsum Board,Drywall,472,linear_ft,12
+RFQ-1030,8,Sheetrock,Drywall,345,linear_ft,29
+RFQ-1030,9,Interior Paint,Paint,465,yd3,19
+RFQ-1030,10,Exterior Coating,Paint,296,yd3,16
+RFQ-1031,1,HVAC Compressor,HVAC,204,ea,21
+RFQ-1031,2,Drywall Screws,Drywall,69,ton,30
+RFQ-1031,3,Plumbing Fixture,Plumbing,436,linear_ft,16
+RFQ-1031,4,Steel Plate,Steel,398,linear_ft,11
+RFQ-1031,5,Drywall Screws,Drywall,331,yd3,11
+RFQ-1031,6,Rebar Grade 60,Steel,268,sq_ft,17
+RFQ-1031,7,Cement Blend,Concrete,412,linear_ft,9
+RFQ-1031,8,Portland Cement,Concrete,352,ea,20
+RFQ-1031,9,I Beam Steel,Steel,261,sq_ft,31
+RFQ-1031,10,Steel Rebar,Steel,120,linear_ft,16
+RFQ-1032,1,PVC Plumbing Pipe,Plumbing,288,ton,20
+RFQ-1032,2,Concrete,Concrete,88,linear_ft,10
+RFQ-1032,3,Conduit,Electrical,278,ea,29
+RFQ-1032,4,VAV Box,HVAC,394,yd3,9
+RFQ-1032,5,Air Diffuser,HVAC,84,linear_ft,16
+RFQ-1032,6,Pipe Fittings,Plumbing,401,ea,28
+RFQ-1032,7,Joint Compound,Drywall,140,sq_ft,20
+RFQ-1032,8,Air Diffuser,HVAC,121,yd3,35
+RFQ-1032,9,Joint Compound,Drywall,372,ea,12
+RFQ-1032,10,Portland Cement,Concrete,369,yd3,19
+RFQ-1033,1,VAV Box,HVAC,288,linear_ft,28
+RFQ-1033,2,Drywall Screws,Drywall,117,yd3,27
+RFQ-1033,3,Latex Paint,Paint,466,ton,25
+RFQ-1033,4,PVC Plumbing Pipe,Plumbing,363,linear_ft,15
+RFQ-1033,5,Latex Paint,Paint,439,sq_ft,34
+RFQ-1033,6,Joint Compound,Drywall,314,yd3,23
+RFQ-1033,7,Rebar Grade 60,Steel,261,ton,14
+RFQ-1033,8,Rebar Grade 60,Steel,457,linear_ft,20
+RFQ-1033,9,HVAC Air Handler,HVAC,349,ton,34
+RFQ-1033,10,Ball Valve,Plumbing,446,ea,27
+RFQ-1034,1,Conduit,Electrical,489,yd3,21
+RFQ-1034,2,Rebar Grade 60,Steel,384,ton,8
+RFQ-1034,3,Pipe Fittings,Plumbing,244,sq_ft,15
+RFQ-1034,4,Structural Steel Beam,Steel,213,ton,25
+RFQ-1034,5,Ready Mix Concrete,Concrete,392,sq_ft,20
+RFQ-1034,6,Joint Compound,Drywall,448,linear_ft,10
+RFQ-1034,7,Steel Rebar,Steel,122,ea,16
+RFQ-1034,8,Paint Supplies,Paint,220,ton,20
+RFQ-1034,9,Gypsum Board,Drywall,332,ton,33
+RFQ-1034,10,Ductwork,HVAC,239,ton,20
+RFQ-1035,1,Air Diffuser,HVAC,248,yd3,32
+RFQ-1035,2,Ball Valve,Plumbing,101,ton,28
+RFQ-1035,3,Ductwork,HVAC,292,linear_ft,16
+RFQ-1035,4,Electrical Wire,Electrical,307,yd3,8
+RFQ-1035,5,Electrical Wire,Electrical,286,linear_ft,20
+RFQ-1035,6,Portland Cement,Concrete,363,sq_ft,33
+RFQ-1035,7,HVAC Compressor,HVAC,155,sq_ft,9
+RFQ-1035,8,Drywall Screws,Drywall,33,yd3,30
+RFQ-1035,9,Paint Supplies,Paint,116,ton,33
+RFQ-1035,10,Copper Pipe,Plumbing,67,linear_ft,35
+RFQ-1036,1,Ductwork,HVAC,397,ea,29
+RFQ-1036,2,Pipe Fittings,Plumbing,280,yd3,11
+RFQ-1036,3,Exterior Coating,Paint,196,ton,10
+RFQ-1036,4,Gypsum Board,Drywall,249,linear_ft,31
+RFQ-1036,5,Drywall Sheet,Drywall,150,linear_ft,17
+RFQ-1036,6,VAV Box,HVAC,112,yd3,15
+RFQ-1036,7,Air Diffuser,HVAC,209,ton,11
+RFQ-1036,8,Drywall Screws,Drywall,240,ton,11
+RFQ-1036,9,Joint Compound,Drywall,236,linear_ft,35
+RFQ-1036,10,Pipe Fittings,Plumbing,431,ea,7
+RFQ-1037,1,VAV Box,HVAC,48,linear_ft,30
+RFQ-1037,2,HVAC Air Handler,HVAC,468,ton,29
+RFQ-1037,3,Cement Blend,Concrete,347,ea,24
+RFQ-1037,4,Interior Paint,Paint,354,sq_ft,9
+RFQ-1037,5,I Beam Steel,Steel,302,sq_ft,31
+RFQ-1037,6,Cement Blend,Concrete,292,ton,31
+RFQ-1037,7,Pipe Fittings,Plumbing,484,yd3,10
+RFQ-1037,8,Latex Paint,Paint,117,yd3,15
+RFQ-1037,9,Gypsum Board,Drywall,150,sq_ft,21
+RFQ-1037,10,Cement Blend,Concrete,335,ea,19
+RFQ-1038,1,Conduit,Electrical,406,yd3,11
+RFQ-1038,2,VAV Box,HVAC,463,ton,35
+RFQ-1038,3,Breaker Panel,Electrical,123,yd3,29
+RFQ-1038,4,Latex Paint,Paint,339,ea,28
+RFQ-1038,5,Junction Box,Electrical,26,linear_ft,27
+RFQ-1038,6,Interior Paint,Paint,462,ea,20
+RFQ-1038,7,Joint Compound,Drywall,165,yd3,28
+RFQ-1038,8,Junction Box,Electrical,278,ea,23
+RFQ-1038,9,Drywall Sheet,Drywall,477,ton,8
+RFQ-1038,10,Air Diffuser,HVAC,297,linear_ft,17
+RFQ-1039,1,PVC Plumbing Pipe,Plumbing,214,ea,28
+RFQ-1039,2,I Beam Steel,Steel,434,sq_ft,35
+RFQ-1039,3,Copper Pipe,Plumbing,85,ton,35
+RFQ-1039,4,Steel Rebar,Steel,123,sq_ft,19
+RFQ-1039,5,Exterior Coating,Paint,187,sq_ft,20
+RFQ-1039,6,Primer,Paint,496,yd3,31
+RFQ-1039,7,LED Fixture,Electrical,121,sq_ft,16
+RFQ-1039,8,Gypsum Board,Drywall,192,ton,8
+RFQ-1039,9,Exterior Coating,Paint,471,ton,34
+RFQ-1039,10,LED Fixture,Electrical,478,linear_ft,13
+RFQ-1040,1,Paint Supplies,Paint,166,ton,7
+RFQ-1040,2,Steel Plate,Steel,57,linear_ft,26
+RFQ-1040,3,Gypsum Board,Drywall,294,ea,25
+RFQ-1040,4,Plumbing Fixture,Plumbing,261,sq_ft,8
+RFQ-1040,5,Interior Paint,Paint,172,linear_ft,18
+RFQ-1040,6,Exterior Coating,Paint,225,sq_ft,33
+RFQ-1040,7,Gypsum Board,Drywall,237,ton,12
+RFQ-1040,8,Junction Box,Electrical,259,linear_ft,28
+RFQ-1040,9,I Beam Steel,Steel,73,linear_ft,29
+RFQ-1040,10,Concrete Mix,Concrete,478,ton,15
+RFQ-1041,1,Concrete Mix,Concrete,458,ea,17
+RFQ-1041,2,Steel Rebar,Steel,301,yd3,28
+RFQ-1041,3,Steel Rebar,Steel,336,linear_ft,23
+RFQ-1041,4,Ductwork,HVAC,251,yd3,9
+RFQ-1041,5,Joint Compound,Drywall,60,ton,8
+RFQ-1041,6,Primer,Paint,129,ton,9
+RFQ-1041,7,I Beam Steel,Steel,306,ton,14
+RFQ-1041,8,Electrical Wire,Electrical,243,linear_ft,16
+RFQ-1041,9,Steel Rebar,Steel,150,linear_ft,12
+RFQ-1041,10,Conduit,Electrical,180,ea,25
+RFQ-1042,1,HVAC Compressor,HVAC,437,yd3,7
+RFQ-1042,2,Plumbing Fixture,Plumbing,396,ton,7
+RFQ-1042,3,Electrical Wire,Electrical,469,sq_ft,15
+RFQ-1042,4,Primer,Paint,213,linear_ft,26
+RFQ-1042,5,Paint Supplies,Paint,288,linear_ft,28
+RFQ-1042,6,Structural Steel Beam,Steel,351,ea,7
+RFQ-1042,7,Exterior Coating,Paint,472,yd3,32
+RFQ-1042,8,Exterior Coating,Paint,372,linear_ft,14
+RFQ-1042,9,Junction Box,Electrical,229,sq_ft,32
+RFQ-1042,10,Concrete,Concrete,244,linear_ft,28
+RFQ-1043,1,VAV Box,HVAC,113,linear_ft,31
+RFQ-1043,2,Interior Paint,Paint,423,linear_ft,34
+RFQ-1043,3,Joint Compound,Drywall,165,linear_ft,18
+RFQ-1043,4,Ready Mix Concrete,Concrete,84,yd3,10
+RFQ-1043,5,Pipe Fittings,Plumbing,140,yd3,25
+RFQ-1043,6,LED Fixture,Electrical,270,ea,29
+RFQ-1043,7,Interior Paint,Paint,431,sq_ft,12
+RFQ-1043,8,Plumbing Fixture,Plumbing,355,linear_ft,16
+RFQ-1043,9,Conduit,Electrical,75,ea,9
+RFQ-1043,10,Latex Paint,Paint,119,linear_ft,33
+RFQ-1044,1,Drywall Sheet,Drywall,242,sq_ft,30
+RFQ-1044,2,Steel Plate,Steel,279,sq_ft,28
+RFQ-1044,3,Latex Paint,Paint,382,yd3,19
+RFQ-1044,4,Cement Blend,Concrete,122,yd3,29
+RFQ-1044,5,Pipe Fittings,Plumbing,408,ea,14
+RFQ-1044,6,Latex Paint,Paint,375,sq_ft,8
+RFQ-1044,7,Junction Box,Electrical,111,sq_ft,35
+RFQ-1044,8,Steel Rebar,Steel,63,ea,33
+RFQ-1044,9,I Beam Steel,Steel,205,yd3,20
+RFQ-1044,10,Plumbing Fixture,Plumbing,112,ea,10
+RFQ-1045,1,Paint Supplies,Paint,498,yd3,9
+RFQ-1045,2,LED Fixture,Electrical,200,ea,30
+RFQ-1045,3,PVC Plumbing Pipe,Plumbing,298,ton,8
+RFQ-1045,4,Steel Rebar,Steel,239,sq_ft,29
+RFQ-1045,5,VAV Box,HVAC,202,ea,21
+RFQ-1045,6,Interior Paint,Paint,491,linear_ft,9
+RFQ-1045,7,Plumbing Fixture,Plumbing,293,sq_ft,32
+RFQ-1045,8,Concrete Mix,Concrete,331,ea,29
+RFQ-1045,9,Rebar Grade 60,Steel,48,sq_ft,8
+RFQ-1045,10,Gypsum Board,Drywall,404,linear_ft,22
+RFQ-1046,1,Concrete,Concrete,494,linear_ft,28
+RFQ-1046,2,HVAC Compressor,HVAC,440,yd3,32
+RFQ-1046,3,Concrete Mix,Concrete,423,ton,17
+RFQ-1046,4,Steel Plate,Steel,253,linear_ft,33
+RFQ-1046,5,Ready Mix Concrete,Concrete,320,linear_ft,30
+RFQ-1046,6,Ductwork,HVAC,71,ea,11
+RFQ-1046,7,Steel Plate,Steel,205,ea,22
+RFQ-1046,8,Plumbing Fixture,Plumbing,380,linear_ft,26
+RFQ-1046,9,Sheetrock,Drywall,95,ton,19
+RFQ-1046,10,Pipe Fittings,Plumbing,279,sq_ft,24
+RFQ-1047,1,Electrical Wire,Electrical,103,sq_ft,27
+RFQ-1047,2,Copper Pipe,Plumbing,437,yd3,11
+RFQ-1047,3,Sheetrock,Drywall,305,yd3,22
+RFQ-1047,4,Portland Cement,Concrete,185,ton,16
+RFQ-1047,5,Structural Steel Beam,Steel,168,sq_ft,18
+RFQ-1047,6,HVAC Air Handler,HVAC,61,ton,29
+RFQ-1047,7,Joint Compound,Drywall,157,linear_ft,15
+RFQ-1047,8,Joint Compound,Drywall,357,ton,10
+RFQ-1047,9,Junction Box,Electrical,45,ea,34
+RFQ-1047,10,Air Diffuser,HVAC,234,sq_ft,28
+RFQ-1048,1,Joint Compound,Drywall,28,ea,32
+RFQ-1048,2,I Beam Steel,Steel,170,ea,35
+RFQ-1048,3,Exterior Coating,Paint,182,linear_ft,28
+RFQ-1048,4,Structural Steel Beam,Steel,485,linear_ft,8
+RFQ-1048,5,Ready Mix Concrete,Concrete,103,ea,33
+RFQ-1048,6,Drywall Screws,Drywall,444,sq_ft,17
+RFQ-1048,7,Ductwork,HVAC,317,linear_ft,14
+RFQ-1048,8,Junction Box,Electrical,123,sq_ft,27
+RFQ-1048,9,Copper Pipe,Plumbing,435,sq_ft,20
+RFQ-1048,10,Steel Plate,Steel,397,ton,19
+RFQ-1049,1,PVC Plumbing Pipe,Plumbing,332,ea,25
+RFQ-1049,2,PVC Plumbing Pipe,Plumbing,320,yd3,16
+RFQ-1049,3,Cement Blend,Concrete,27,linear_ft,16
+RFQ-1049,4,Steel Plate,Steel,43,sq_ft,23
+RFQ-1049,5,Concrete,Concrete,355,yd3,9
+RFQ-1049,6,Copper Pipe,Plumbing,449,linear_ft,30
+RFQ-1049,7,HVAC Compressor,HVAC,187,ea,19
+RFQ-1049,8,Cement Blend,Concrete,421,ea,22
+RFQ-1049,9,Electrical Wire,Electrical,226,ea,29
+RFQ-1049,10,Plumbing Fixture,Plumbing,459,yd3,33
+RFQ-1050,1,Exterior Coating,Paint,452,ton,23
+RFQ-1050,2,Conduit,Electrical,411,ton,31
+RFQ-1050,3,Ready Mix Concrete,Concrete,180,ea,21
+RFQ-1050,4,Ball Valve,Plumbing,304,ea,28
+RFQ-1050,5,Ball Valve,Plumbing,211,linear_ft,7
+RFQ-1050,6,Sheetrock,Drywall,179,ea,35
+RFQ-1050,7,LED Fixture,Electrical,272,yd3,15
+RFQ-1050,8,Latex Paint,Paint,397,yd3,11
+RFQ-1050,9,PVC Plumbing Pipe,Plumbing,362,ton,18
+RFQ-1050,10,Copper Pipe,Plumbing,150,sq_ft,30

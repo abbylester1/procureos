@@ -1,0 +1,13 @@
+version: 2
+
+seeds:
+  - name: raw_rfqs
+    description: Raw RFQ project headers generated for demo procurement scenarios.
+  - name: raw_rfq_items
+    description: Raw line items requested by RFQs.
+  - name: raw_suppliers
+    description: Supplier master data with reliability metadata.
+  - name: raw_quotes
+    description: Raw supplier quote lines for RFQ materials.
+  - name: raw_materials
+    description: Raw construction material catalog.

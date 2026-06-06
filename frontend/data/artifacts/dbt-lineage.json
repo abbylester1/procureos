@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    { "id": "stg_rfqs", "layer": "staging" },
+    { "id": "stg_materials", "layer": "staging" },
+    { "id": "stg_quotes", "layer": "staging" },
+    { "id": "int_material_mapping", "layer": "intermediate" },
+    { "id": "int_supplier_matching", "layer": "intermediate" },
+    { "id": "int_vendor_scoring", "layer": "intermediate" },
+    { "id": "fct_vendor_scores", "layer": "mart" },
+    { "id": "procurement_recommendations", "layer": "mart" }
+  ],
+  "edges": [
+    { "source": "stg_materials", "target": "int_material_mapping" },
+    { "source": "stg_quotes", "target": "int_supplier_matching" },
+    { "source": "int_material_mapping", "target": "int_supplier_matching" },
+    { "source": "int_supplier_matching", "target": "int_vendor_scoring" },
+    { "source": "int_vendor_scoring", "target": "fct_vendor_scores" },
+    { "source": "fct_vendor_scores", "target": "procurement_recommendations" }
+  ]
+}

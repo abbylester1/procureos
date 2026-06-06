@@ -1,0 +1,13 @@
+quote_id,rfq_id,supplier_id,supplier_name,region,reliability_score,material_name,category,quantity,unit,unit_price,currency,lead_time_days
+Q-RFQ-1001-constructpro-1,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,Interior Paint,Paint,150,ton,39.56,USD,9
+Q-RFQ-1001-constructpro-2,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,Paint Supplies,Paint,371,sq_ft,39.14,USD,8
+Q-RFQ-1001-constructpro-3,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,LED Fixture,Electrical,41,yd3,65.27,USD,18
+Q-RFQ-1001-constructpro-4,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,Steel Plate,Steel,283,sq_ft,879.41,USD,8
+Q-RFQ-1001-constructpro-5,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,Conduit,Electrical,391,sq_ft,60.37,USD,19
+Q-RFQ-1001-constructpro-6,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,I Beam Steel,Steel,326,ea,1040.84,USD,31
+Q-RFQ-1001-constructpro-7,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,Drywall Screws,Drywall,413,ton,18.49,USD,30
+Q-RFQ-1001-constructpro-8,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,PVC Plumbing Pipe,Plumbing,167,ton,103.23,USD,16
+Q-RFQ-1001-constructpro-9,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,Drywall Sheet,Drywall,77,yd3,20.43,USD,16
+Q-RFQ-1001-constructpro-10,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,Portland Cement,Concrete,458,ea,166.3,USD,30
+Q-FILL-2397,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,Interior Paint,Paint,371,sq_ft,880.85,USD,9
+Q-FILL-2402,RFQ-1001,constructpro,ConstructPro Materials,Northeast,88,Drywall Sheet,Drywall,413,ton,807.63,USD,29

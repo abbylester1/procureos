@@ -1,0 +1,13 @@
+quote_id,rfq_id,supplier_id,supplier_name,region,reliability_score,material_name,category,quantity,unit,unit_price,currency,lead_time_days
+Q-RFQ-1001-metro-1,RFQ-1001,metro,Metro Contractor Depot,National,86,Exterior Coating,Paint,150,ton,31.36,USD,7
+Q-RFQ-1001-metro-2,RFQ-1001,metro,Metro Contractor Depot,National,86,Paint Supplies,Paint,371,sq_ft,34.21,USD,7
+Q-RFQ-1001-metro-3,RFQ-1001,metro,Metro Contractor Depot,National,86,LED Fixture,Electrical,41,yd3,63.63,USD,13
+Q-RFQ-1001-metro-4,RFQ-1001,metro,Metro Contractor Depot,National,86,Steel Plate,Steel,283,sq_ft,1083.52,USD,5
+Q-RFQ-1001-metro-5,RFQ-1001,metro,Metro Contractor Depot,National,86,Breaker Panel,Electrical,391,sq_ft,62.43,USD,21
+Q-RFQ-1001-metro-6,RFQ-1001,metro,Metro Contractor Depot,National,86,Structural Steel Beam,Steel,326,ea,1108.24,USD,37
+Q-RFQ-1001-metro-7,RFQ-1001,metro,Metro Contractor Depot,National,86,Drywall Sheet,Drywall,413,ton,20.35,USD,30
+Q-RFQ-1001-metro-8,RFQ-1001,metro,Metro Contractor Depot,National,86,Copper Pipe,Plumbing,167,ton,100.57,USD,11
+Q-RFQ-1001-metro-9,RFQ-1001,metro,Metro Contractor Depot,National,86,Gypsum Board,Drywall,77,yd3,19.68,USD,20
+Q-RFQ-1001-metro-10,RFQ-1001,metro,Metro Contractor Depot,National,86,Ready Mix Concrete,Concrete,458,ea,154.94,USD,28
+Q-FILL-2400,RFQ-1001,metro,Metro Contractor Depot,National,86,Conduit,Electrical,391,sq_ft,187.08,USD,20
+Q-FILL-2405,RFQ-1001,metro,Metro Contractor Depot,National,86,Concrete,Concrete,458,ea,425.59,USD,26

@@ -1,0 +1,97 @@
+{
+  "rfq_id": "RFQ-1001",
+  "project_name": "School Renovation",
+  "budget": 802451,
+  "items": [
+    {
+      "rfq_id": "RFQ-1001",
+      "line_number": 1,
+      "material_name": "Exterior Coating",
+      "category": "Paint",
+      "quantity": 150,
+      "unit": "ton",
+      "required_delivery_days": 11
+    },
+    {
+      "rfq_id": "RFQ-1001",
+      "line_number": 2,
+      "material_name": "Interior Paint",
+      "category": "Paint",
+      "quantity": 371,
+      "unit": "sq_ft",
+      "required_delivery_days": 9
+    },
+    {
+      "rfq_id": "RFQ-1001",
+      "line_number": 3,
+      "material_name": "Junction Box",
+      "category": "Electrical",
+      "quantity": 41,
+      "unit": "yd3",
+      "required_delivery_days": 9
+    },
+    {
+      "rfq_id": "RFQ-1001",
+      "line_number": 4,
+      "material_name": "Steel Rebar",
+      "category": "Steel",
+      "quantity": 283,
+      "unit": "sq_ft",
+      "required_delivery_days": 7
+    },
+    {
+      "rfq_id": "RFQ-1001",
+      "line_number": 5,
+      "material_name": "Conduit",
+      "category": "Electrical",
+      "quantity": 391,
+      "unit": "sq_ft",
+      "required_delivery_days": 20
+    },
+    {
+      "rfq_id": "RFQ-1001",
+      "line_number": 6,
+      "material_name": "Steel Plate",
+      "category": "Steel",
+      "quantity": 326,
+      "unit": "ea",
+      "required_delivery_days": 32
+    },
+    {
+      "rfq_id": "RFQ-1001",
+      "line_number": 7,
+      "material_name": "Drywall Sheet",
+      "category": "Drywall",
+      "quantity": 413,
+      "unit": "ton",
+      "required_delivery_days": 29
+    },
+    {
+      "rfq_id": "RFQ-1001",
+      "line_number": 8,
+      "material_name": "Ball Valve",
+      "category": "Plumbing",
+      "quantity": 167,
+      "unit": "ton",
+      "required_delivery_days": 13
+    },
+    {
+      "rfq_id": "RFQ-1001",
+      "line_number": 9,
+      "material_name": "Sheetrock",
+      "category": "Drywall",
+      "quantity": 77,
+      "unit": "yd3",
+      "required_delivery_days": 19
+    },
+    {
+      "rfq_id": "RFQ-1001",
+      "line_number": 10,
+      "material_name": "Concrete",
+      "category": "Concrete",
+      "quantity": 458,
+      "unit": "ea",
+      "required_delivery_days": 26
+    }
+  ]
+}
