@@ -17,11 +17,16 @@ export default function CopilotPage() {
 
   async function ask(message = question) {
     setLoading(true)
-    const response = await fetch('/api/copilot', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ message }) })
-    const data = await response.json()
-    setAnswer(data.answer)
-    setQuestion(message)
-    setLoading(false)
+    try {
+      const response = await fetch('/api/copilot', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ message }) })
+      const data = await response.json()
+      setAnswer(data.answer ?? 'No answer returned.')
+      setQuestion(message)
+    } catch {
+      setAnswer('Something went wrong. Please try again.')
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (

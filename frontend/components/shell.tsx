@@ -5,18 +5,18 @@ const primaryNav = [
   { href: '/', label: 'Overview', icon: Home },
   { href: '/recommendations', label: 'Recommendations', icon: Sparkles },
   { href: '/suppliers', label: 'Suppliers', icon: Truck },
-  { href: '/', label: 'RFQs', icon: ClipboardList },
+  { href: '/rfqs', label: 'RFQs', icon: ClipboardList },
   { href: '/risks', label: 'Risks', icon: ShieldAlert },
   { href: '/copilot', label: 'Procurement Copilot', icon: Bot },
 ]
 
 const opsNav = [
   { href: '/operations', label: 'Operations', icon: LineChart },
-  { href: '/operations', label: 'Agents', icon: Zap },
-  { href: '/operations', label: 'Traces', icon: FileClock },
-  { href: '/operations', label: 'Lineage', icon: GitBranch },
-  { href: '/operations', label: 'Audit Logs', icon: LockKeyhole },
-  { href: '/operations', label: 'Settings', icon: Settings },
+  { href: '/operations/agents', label: 'Agents', icon: Zap },
+  { href: '/operations/traces', label: 'Traces', icon: FileClock },
+  { href: '/operations/lineage', label: 'Lineage', icon: GitBranch },
+  { href: '/operations/audit', label: 'Audit Logs', icon: LockKeyhole },
+  { href: '/settings', label: 'Settings', icon: Settings },
 ]
 
 function NavSection({ items }: { items: typeof primaryNav }) {

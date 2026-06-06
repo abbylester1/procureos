@@ -17,6 +17,6 @@ export async function POST(request: NextRequest) {
   return Response.json({
     mode: process.env.OPENAI_API_KEY ? 'hybrid-ready' : 'deterministic-fallback',
     answer: fallbackAnswer(message),
-    trace: { traceId: 'trc_copilot_1001', latencyMs: 312, model: process.env.OPENAI_API_KEY ? 'gpt-5-mini' : 'fallback-procurement-analyst' },
+    trace: { traceId: 'trc_copilot_1001', latencyMs: 312, model: process.env.OPENAI_API_KEY ? 'gpt-4o-mini' : 'fallback-procurement-analyst' },
   })
 }
