@@ -25,27 +25,27 @@ export default function CopilotPage() {
   }
 
   return (
-    <div className="grid gap-6 xl:grid-cols-[0.8fr_1.2fr]">
-      <div className="rounded-3xl border border-border bg-panel p-5">
-        <div className="text-xs uppercase tracking-[0.28em] text-accent">Procurement Copilot</div>
-        <h2 className="mt-2 text-3xl font-semibold">Ask your AI procurement analyst</h2>
-        <div className="mt-6 space-y-3">
+    <div className="grid gap-8 xl:grid-cols-[0.8fr_1.2fr]">
+      <div className="surface-muted rounded-3xl p-6">
+        <div className="text-sm font-medium text-accent">Procurement Copilot</div>
+        <h2 className="mt-3 text-[48px] font-semibold leading-[0.98] tracking-[-0.055em]">Ask your AI procurement analyst.</h2>
+        <div className="mt-8 space-y-3">
           {prompts.map((prompt) => (
-            <button key={prompt} onClick={() => ask(prompt)} className="block w-full rounded-2xl border border-border bg-panel2 p-4 text-left text-sm text-slate-300 transition hover:border-accent/40 hover:text-white">
+            <button key={prompt} onClick={() => ask(prompt)} className="block w-full rounded-xl bg-white/[0.035] p-4 text-left text-sm text-slate-400 transition hover:bg-white/[0.055] hover:text-white">
               {prompt}
             </button>
           ))}
         </div>
       </div>
-      <div className="rounded-3xl border border-border bg-panel p-5">
-        <div className="rounded-2xl border border-border bg-panel2 p-4">
-          <label className="text-xs uppercase tracking-[0.18em] text-muted">Question</label>
-          <textarea value={question} onChange={(event) => setQuestion(event.target.value)} className="mt-3 min-h-28 w-full rounded-2xl border border-border bg-background p-4 text-slate-100 outline-none focus:border-accent/50" />
-          <button onClick={() => ask()} disabled={loading} className="mt-4 rounded-2xl bg-accent px-5 py-3 font-semibold text-slate-950 disabled:opacity-50">{loading ? 'Analyzing...' : 'Ask Copilot'}</button>
+      <div className="surface rounded-3xl p-6">
+        <div className="rounded-[20px] bg-white/[0.035] p-4">
+          <label className="text-sm text-slate-500">Question</label>
+          <textarea value={question} onChange={(event) => setQuestion(event.target.value)} className="mt-3 min-h-28 w-full rounded-xl bg-[#081120] p-4 text-sm text-slate-100 outline-none focus:ring-1 focus:ring-accent/45" />
+          <button onClick={() => ask()} disabled={loading} className="mt-4 rounded-xl bg-accent px-5 py-3 text-sm font-semibold text-white disabled:opacity-50">{loading ? 'Analyzing...' : 'Ask Copilot'}</button>
         </div>
-        <div className="mt-5 rounded-2xl border border-accent/20 bg-accent/10 p-5">
-          <div className="text-xs uppercase tracking-[0.18em] text-accent">Answer</div>
-          <p className="mt-3 whitespace-pre-line leading-7 text-slate-200">{answer}</p>
+        <div className="mt-5 rounded-[20px] bg-accent/10 p-5">
+          <div className="text-sm font-medium text-accent">Answer</div>
+          <p className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-200">{answer}</p>
         </div>
       </div>
     </div>
